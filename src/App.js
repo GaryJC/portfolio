@@ -1,25 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
 import ReactFullpage from '@fullpage/react-fullpage';
+import AboutMe from "./components/introductions/aboutMe";
+import Education from "./components/introductions/education";
+import Skills from "./components/introductions/skills";
 
 function App() {
   return (
       <ReactFullpage
           //fullpage options
-          licenseKey = {'YOUR_KEY_HERE'}
+          licenseKey = {'3F9601FB-2B574E9F-BBEE354F-00C21111'}
           scrollingSpeed = {1000} /* Options here */
 
           render={({ state, fullpageApi }) => {
             return (
                 <ReactFullpage.Wrapper>
                   <div className="section">
-                    <p>Section 1 (welcome to fullpage.js)</p>
-                    <button onClick={() => fullpageApi.moveSectionDown()}>
-                      Click me to move down
-                    </button>
+                      <AboutMe/>
                   </div>
+                    <div className="section">
+                        <Skills/>
+                    </div>
                   <div className="section">
-                    <p>Section 2</p>
+                    <Education/>
                   </div>
                 </ReactFullpage.Wrapper>
             );
