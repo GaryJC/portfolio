@@ -1,4 +1,3 @@
-import "./App.css";
 import ReactFullpage from "@fullpage/react-fullpage";
 import AboutMe from "./components/introductions/aboutMe";
 import Education from "./components/introductions/education";
@@ -7,7 +6,7 @@ import Experiences from "./components/experiences/experiences";
 import Projects from "./components/projects/projects";
 import "antd/dist/antd.css"; // or 'antd/dist/antd.less'
 import Navigation from "./components/navigation/navigation";
-
+import "./App.scss";
 function App() {
   return (
     <ReactFullpage

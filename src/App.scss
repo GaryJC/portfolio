@@ -23,7 +23,26 @@ span {
   align-items: center;
 } */
 
+// .fp-section {
+//   display: flex;
+//   align-items: center;
+// }
+
 .fp-section.fp-table,
 .fp-slide.fp-table {
   display: flex;
+}
+
+@mixin arrowStyle {
+  border-width: 1.3rem;
+}
+
+.fp-arrow.fp-next {
+  @include arrowStyle;
+  border-color: transparent transparent transparent #d8dfe3;
+}
+
+.fp-arrow.fp-prev {
+  @include arrowStyle;
+  border-color: transparent #d8dfe3 transparent transparent;
 }
