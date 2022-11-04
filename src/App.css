@@ -17,3 +17,13 @@ p,
 span {
   font-size: 1.5em;
 }
+
+/* .section {
+  display: flex;
+  align-items: center;
+} */
+
+.fp-section.fp-table,
+.fp-slide.fp-table {
+  display: flex;
+}
