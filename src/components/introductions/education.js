@@ -1,6 +1,6 @@
 function Education() {
   return (
-    <div class="edu">
+    <div className="edu">
       <h1>Education</h1>
       <div className="schoolInfo">
         <img

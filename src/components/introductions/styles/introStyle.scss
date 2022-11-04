@@ -1,23 +1,45 @@
 .skills {
   margin-left: 5vw;
   img {
-    width: 3vw;
+    width: 5rem;
     padding-right: 1rem;
+    padding-bottom: 1rem;
   }
 }
 
 .edu {
   margin-left: 5vw;
   img {
-    width: 15vw;
+    width: 15rem;
     margin-right: 2vw;
   }
   .schoolInfo {
     display: flex;
     margin-bottom: 5vh;
+    div {
+      font-size: 1.2em;
+    }
   }
 }
 
 .aboutMe {
   margin-left: 5vw;
+  display: flex;
+  #portrait {
+    border-radius: 50%;
+    width: 25rem;
+    height: 25rem;
+    margin-right: 5vw;
+  }
+  p {
+    width: 40vw;
+  }
+}
+
+.contact {
+  display: flex;
+  .contactImg {
+    width: 3rem;
+    margin: 0.5rem;
+  }
 }

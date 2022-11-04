@@ -1,19 +1,27 @@
+import Contact from "../contact/contact";
+
 function AboutMe() {
   return (
     <div className="aboutMe">
-      <h1>Hi all, I'm Gary</h1>
-      <img src={"https://i.pravatar.cc/300"} alt={"avatar"} />
-      <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
-      </p>
+      <img
+        id="portrait"
+        src={process.env.PUBLIC_URL + "/images/portrait.jpg"}
+        alt="Avatar"
+      ></img>
+      <div>
+        <h1>Hi all, I'm Gary</h1>
+        <p>
+          I'm a new grad and looking for a job relative to full-stack
+          development. I've completed my bachelor's degree from SFU in
+          Interactive Arts and Technology, and I graduated with my master's
+          degree in Information Technology from the University of Melbourne.
+          I've been studying and working on web development and UI/UX design
+          four more than 5 years. I am proficient with JavaScript, HTML, CSS,
+          NodeJs, React, and Angular. I am also experience with PHP, Java,
+          Pyhton and C#.
+        </p>
+        <Contact />
+      </div>
     </div>
   );
 }

@@ -1,0 +1,39 @@
+.techIcon {
+  display: flex;
+  justify-content: space-around;
+  // text-align: center;
+  img {
+    width: 2vw;
+    margin-bottom: 2vh;
+  }
+}
+
+.slide {
+  height: 100vh;
+  h1 {
+    margin-left: 5vw;
+  }
+}
+
+.eachSlide {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@mixin arrowStyle {
+  border-width: 1.3rem;
+}
+
+.fp-arrow.fp-next {
+  @include arrowStyle;
+  border-color: transparent transparent transparent #d8dfe3;
+}
+
+.fp-arrow.fp-prev {
+  @include arrowStyle;
+  border-color: transparent #d8dfe3 transparent transparent;
+}
+
+.meta {
+  display: block;
+}

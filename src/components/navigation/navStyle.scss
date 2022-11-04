@@ -1,0 +1,12 @@
+.nav {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  font-weight: bold;
+  span {
+    margin: 1rem;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
