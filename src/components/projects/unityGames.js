@@ -1,7 +1,7 @@
 import ProjectCard from "./projectCard";
 
 function UnityGames() {
-  const coverImg = "/images/unityGame.jpg";
+  const coverImg = "/images/unityGame.JPG";
   const redirectLink = "https://garyjc.github.io/PersonalPortfolio/";
   const cardTitle = "Unity Games";
   const cardDescription = "I developed games using Unity3D, C# and Maya";

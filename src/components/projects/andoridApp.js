@@ -1,7 +1,7 @@
 import ProjectCard from "./projectCard";
 
 function AndroidApp() {
-  const coverImg = "/images/stepCounter.jpg";
+  const coverImg = "/images/stepCounter.JPG";
   const redirectLink = "https://github.com/GaryJC/StepCounterApp";
   const cardTitle = "Step Counter Android App";
   const cardDescription =

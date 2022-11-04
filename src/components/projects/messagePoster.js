@@ -1,7 +1,7 @@
 import ProjectCard from "./projectCard";
 
 function MessagePoster() {
-  const coverImg = "/images/messagePosting.jpg";
+  const coverImg = "/images/messagePosting.JPG";
   const redirectLink = "https://github.com/GaryJC/MEAN-Stack-Application";
   const cardTitle = "Message Posting Web Application";
   const cardDescription =
