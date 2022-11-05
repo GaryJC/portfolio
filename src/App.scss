@@ -18,19 +18,18 @@ span {
   font-size: 1.5em;
 }
 
-/* .section {
-  display: flex;
-  align-items: center;
-} */
-
-// .fp-section {
-//   display: flex;
-//   align-items: center;
-// }
-
 .fp-section.fp-table,
 .fp-slide.fp-table {
+  /* display: table; */
+  table-layout: fixed;
+  width: 100%;
+}
+
+.fp-table {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
 }
 
 @mixin arrowStyle {
