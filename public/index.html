@@ -24,8 +24,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <link rel="stylesheet" type="text/css" href="fullpage.css" />
-    <link rel="stylesheet" type="text/css" href="override.scss" />
+    <!-- <link rel="stylesheet" type="text/css" href="fullpage.css" /> -->
     <title>React App</title>
   </head>
   <body>
@@ -41,5 +40,15 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <style>
+      .fp-arrow.fp-next {
+        border-width: 1.3rem;
+        border-color: transparent transparent transparent #d8dfe3;
+      }
+      .fp-arrow.fp-prev {
+        border-width: 1.3rem;
+        border-color: transparent #d8dfe3 transparent transparent;
+      }
+    </style>
   </body>
 </html>
