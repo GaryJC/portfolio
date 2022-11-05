@@ -8,25 +8,23 @@ import AndroidApp from "./andoridApp";
 
 function Projects() {
   return (
-    <div>
-      <div className="project">
-        <div className="slide">
-          <h1>Projects</h1>
-          <div className="eachSlide">
-            <UnityGames />
-            <GarminWatch />
-            <MessagePoster />
-            <WhiteBoard />
-          </div>
-        </div>
-        <div className="slide">
-          <div className="eachSlide">
-            <GameShop />
-            <AndroidApp />
-          </div>
+    <>
+      <div className="slide">
+        <h1>Projects</h1>
+        <div className="eachSlide">
+          <UnityGames />
+          <GarminWatch />
+          <MessagePoster />
+          <WhiteBoard />
         </div>
       </div>
-    </div>
+      <div className="slide">
+        <div className="eachSlide">
+          <GameShop />
+          <AndroidApp />
+        </div>
+      </div>
+    </>
   );
 }
 
