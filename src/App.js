@@ -14,6 +14,7 @@ function App() {
       scrollingSpeed={1000} /* Options here */
       navigation
       anchors={["page1", "page2", "page3", "page4", "page5", "page6"]}
+      verticalCentered="true"
       render={({ state, fullpageApi }) => {
         return (
           <ReactFullpage.Wrapper>
