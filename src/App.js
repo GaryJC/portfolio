@@ -4,8 +4,8 @@ import Education from "./components/introductions/education";
 import Skills from "./components/introductions/skills";
 import Experiences from "./components/experiences/experiences";
 import Projects from "./components/projects/projects";
-
 import Navigation from "./components/navigation/navigation";
+import "./App.scss";
 function App() {
   const sectionLoaded = [false, false, false, false, false];
   return (

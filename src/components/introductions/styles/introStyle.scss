@@ -1,4 +1,7 @@
 .edu {
+  h2 {
+    font-weight: bold;
+  }
   margin-left: 5vw;
   img {
     width: 15rem;
@@ -29,13 +32,9 @@
   }
   p {
     width: 35rem;
-    // flex: 1;
-    font-size: 1.2rem;
+    // font-size: 1.2rem;
   }
   overflow: hidden;
-  h1 {
-    font-weight: 700;
-  }
 }
 
 .contact {
