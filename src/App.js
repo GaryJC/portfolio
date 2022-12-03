@@ -4,9 +4,10 @@ import Education from "./components/introductions/education";
 import Skills from "./components/introductions/skills";
 import Experiences from "./components/experiences/experiences";
 import Projects from "./components/projects/projects";
-import "antd/dist/antd.css"; // or 'antd/dist/antd.less'
+
 import Navigation from "./components/navigation/navigation";
 function App() {
+  const sectionLoaded = [false, false, false, false, false];
   return (
     <ReactFullpage
       //fullpage options
@@ -17,6 +18,20 @@ function App() {
       // controlArrows={false}
       verticalCentered={true}
       // slidesNavigation={true}
+      afterLoad={(section, origin, destination, direction, trigger) => {
+        // console.log(origin.anchor);
+        //first slide of the second section
+        if (origin.index === 1) {
+          // alert("Second slide loaded");
+          sectionLoaded[1] = true;
+        }
+
+        // //second slide of the second section (supposing #secondSlide is the
+        // //anchor for the second slide)
+        // if (section.index == 1) {
+        //   alert("Second slide loaded");
+        // }
+      }}
       render={({ state, fullpageApi }) => {
         return (
           <ReactFullpage.Wrapper>
@@ -24,8 +39,8 @@ function App() {
               <Navigation fullpageApi={fullpageApi} />
               <AboutMe />
             </div>
-            <div className="section">
-              <Skills />
+            <div className="section section2">
+              <Skills isLoaded={sectionLoaded[1]} />
             </div>
             <div className="section">
               <Education />

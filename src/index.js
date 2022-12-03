@@ -4,7 +4,8 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 // import "fullpage.js/dist/fullpage.css";
-import "./App.scss";
+import "animate.css";
+import "antd/dist/antd.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>

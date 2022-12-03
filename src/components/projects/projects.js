@@ -164,11 +164,11 @@ function Projects() {
 
   return (
     <>
-      {projects.map((project) => (
-        <div className="slide">
+      {projects.map((project, index) => (
+        <div className="slide" key={index}>
           <h1>Projects</h1>
           <div className="eachSlide">
-            {project.map((item) => (
+            {project.map((item, index) => (
               <ProjectCard
                 coverImg={item.coverImg}
                 redirectLink={item.redirectLink}
@@ -176,6 +176,7 @@ function Projects() {
                 cardDescription={item.cardDescription}
                 techIcon={item.techIcon}
                 // linkIcon={project.linkIcon}
+                key={index}
               />
             ))}
           </div>

@@ -1,12 +1,3 @@
-.skills {
-  margin-left: 5vw;
-  img {
-    width: 5rem;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
-  }
-}
-
 .edu {
   margin-left: 5vw;
   img {
@@ -15,6 +6,7 @@
   }
   .schoolInfo {
     display: flex;
+
     margin-bottom: 5vh;
     div {
       font-size: 1.2em;
@@ -25,15 +17,24 @@
 .aboutMe {
   margin-left: 5vw;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   #portrait {
-    border-radius: 50%;
-    width: 25rem;
-    height: 25rem;
-    margin-right: 5vw;
+    // border-radius: 50%;
+    width: 600px;
+    flex: 1;
+    // height: 20rem;
+    // margin-right: 5vw;
+    max-width: 600px;
   }
   p {
-    width: 40vw;
+    width: 35rem;
+    // flex: 1;
+    font-size: 1.2rem;
+  }
+  overflow: hidden;
+  h1 {
+    font-weight: 700;
   }
 }
 
@@ -42,5 +43,23 @@
   .contactImg {
     width: 3rem;
     margin: 0.5rem;
+  }
+}
+
+.section2 {
+  .skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 5vw;
+    img {
+      width: 4rem;
+      padding-right: 1rem;
+      padding-bottom: 1rem;
+    }
+    overflow: hidden;
+    .unloaded {
+      visibility: hidden;
+    }
   }
 }

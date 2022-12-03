@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <div className="contact">
+    <div className="contact animate__animated animate__fadeInUp">
       {/* <h1>Contact</h1> */}
       <div>
         <img

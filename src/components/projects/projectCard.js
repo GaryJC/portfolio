@@ -9,7 +9,7 @@ function ProjectCard({
   techIcon,
   linkIcon,
 }) {
-  console.log(coverImg);
+  // console.log(coverImg);
   return (
     <div className="site-card-border-less-wrapper">
       {linkIcon ? (
@@ -39,13 +39,14 @@ function ProjectCard({
         <Card
           hoverable
           style={{
-            width: "20vw",
+            width: "20rem",
+            borderRadius: "20px",
           }}
           cover={
             <img
               alt="example"
               src={process.env.PUBLIC_URL + coverImg}
-              style={{ height: "20vh" }}
+              style={{ width: "20rem", borderRadius: "20px 20px 0 0" }}
             />
           }
           onClick={() => window.open(redirectLink)}
