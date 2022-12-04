@@ -1,6 +1,6 @@
 import "./styles/projectStyle.scss";
 import ProjectCard from "./projectCard";
-
+import { Player } from "@lottiefiles/react-lottie-player";
 function Projects() {
   const projects = [
     [
@@ -182,6 +182,13 @@ function Projects() {
           </div>
         </div>
       ))}
+      <Player
+        autoplay
+        loop
+        src="https://assets1.lottiefiles.com/packages/lf20_ysbhqsuf.json"
+        // style={{ height: "500px", width: "500px" }}
+        className="proImg"
+      />
     </>
   );
 }

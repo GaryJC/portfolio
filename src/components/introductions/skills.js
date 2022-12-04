@@ -139,7 +139,6 @@ function Skills({ isLoaded }) {
         loop
         src="https://assets4.lottiefiles.com/private_files/lf30_obidsi0t.json"
         style={{ height: "auto", width: "500px" }}
-        id="skillAnimation"
         className={isLoaded ? "animate__animated animate__zoomIn" : "unloaded"}
       />
     </div>

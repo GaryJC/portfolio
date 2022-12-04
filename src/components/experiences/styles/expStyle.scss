@@ -1,6 +1,6 @@
 .expCard {
   box-sizing: border-box;
-  width: 90vw;
+  width: 40rem;
   border-radius: 3%;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   padding: 1.5rem;
@@ -10,8 +10,16 @@
 
 .exp {
   display: flex;
-  // justify-content: center;
+  justify-content: space-evenly;
   // width: 60rem;
   margin-left: 5vw;
   // overflow: hidden;
+}
+
+.expImg {
+  position: absolute;
+  top: 0%;
+  z-index: -1;
+  width: 100%;
+  height: auto;
 }

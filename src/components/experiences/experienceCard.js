@@ -8,13 +8,12 @@ function ExperienceCard({
 }) {
   return (
     <>
-      <h1>Experiences</h1>
       <div className="expCard">
         <img src={process.env.PUBLIC_URL + `${logoSrc}`} alt="aiTai" />
-        <h3>{companyName}</h3>
-        <span>{location}</span>
-        <h3>{title}</h3>
-        <div>{period}</div>
+        <h3 style={{ fontWeight: "bold" }}>{companyName}</h3>
+        <p style={{ fontSize: "0.8rem" }}>{location}</p>
+        <span style={{ fontSize: "1rem" }}>{title}</span>
+        <div style={{ fontSize: "0.8rem" }}>{period}</div>
         {details}
       </div>
     </>

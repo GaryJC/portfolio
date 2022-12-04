@@ -1,4 +1,7 @@
 .edu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   h2 {
     font-weight: bold;
   }
@@ -9,12 +12,24 @@
   }
   .schoolInfo {
     display: flex;
-
     margin-bottom: 5vh;
     div {
       font-size: 1.2em;
     }
   }
+  overflow: hidden;
+  #eduImg {
+    // padding-right: 2rem;
+  }
+}
+
+.backImg {
+  width: 90vw;
+  height: 90vh;
+  position: absolute;
+  left: 5vw;
+  bottom: 5vh;
+  z-index: -1;
 }
 
 .aboutMe {
@@ -48,7 +63,7 @@
 .section2 {
   .skills {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     margin-left: 5vw;
     img {
@@ -57,8 +72,9 @@
       padding-bottom: 1rem;
     }
     overflow: hidden;
-    .unloaded {
-      visibility: hidden;
-    }
   }
+}
+
+.unloaded {
+  visibility: hidden;
 }

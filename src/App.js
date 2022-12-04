@@ -25,12 +25,14 @@ function App() {
           // alert("Second slide loaded");
           sectionLoaded[1] = true;
         }
-
-        // //second slide of the second section (supposing #secondSlide is the
-        // //anchor for the second slide)
-        // if (section.index == 1) {
-        //   alert("Second slide loaded");
-        // }
+        if (origin.index === 2) {
+          // alert("Second slide loaded");
+          sectionLoaded[2] = true;
+        }
+        if (origin.index === 3) {
+          // alert("Second slide loaded");
+          sectionLoaded[3] = true;
+        }
       }}
       render={({ state, fullpageApi }) => {
         return (
@@ -43,10 +45,10 @@ function App() {
               <Skills isLoaded={sectionLoaded[1]} />
             </div>
             <div className="section">
-              <Education />
+              <Education isLoaded={sectionLoaded[2]} />
             </div>
             <div className="section">
-              <Experiences />
+              <Experiences isLoaded={sectionLoaded[3]} />
             </div>
             <div className="section">
               <Projects />
