@@ -184,6 +184,7 @@ function Projects() {
       ))}
       <Player
         autoplay
+        speed={2}
         loop
         src="https://assets1.lottiefiles.com/packages/lf20_ysbhqsuf.json"
         // style={{ height: "500px", width: "500px" }}
