@@ -33,6 +33,10 @@ function App() {
           // alert("Second slide loaded");
           sectionLoaded[3] = true;
         }
+        if (origin.index === 4) {
+          // alert("Second slide loaded");
+          sectionLoaded[4] = true;
+        }
       }}
       render={({ state, fullpageApi }) => {
         return (
@@ -51,7 +55,7 @@ function App() {
               <Experiences isLoaded={sectionLoaded[3]} />
             </div>
             <div className="section">
-              <Projects />
+              <Projects isLoaded={sectionLoaded[4]} />
             </div>
             {/* <div className="section">
               <Contact />

@@ -64,7 +64,11 @@ function Experiences({ isLoaded }) {
         autoplay
         loop
         src="https://assets1.lottiefiles.com/packages/lf20_opea6x2q.json"
-        className="expImg"
+        className={
+          isLoaded
+            ? "expImg animate__animated animate__fadeIn"
+            : "expImg unloaded"
+        }
       />
     </div>
   );
