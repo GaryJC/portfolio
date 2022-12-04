@@ -34,3 +34,9 @@
   bottom: 0%;
   // border-bottom: 0;
 }
+
+@media screen and (max-width: 400px) {
+  .proCard {
+    margin-bottom: 2rem;
+  }
+}

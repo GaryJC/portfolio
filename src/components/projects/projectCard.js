@@ -11,7 +11,7 @@ function ProjectCard({
 }) {
   // console.log(coverImg);
   return (
-    <div className="site-card-border-less-wrapper">
+    <div className="site-card-border-less-wrapper proCard">
       {linkIcon ? (
         <Card
           hoverable

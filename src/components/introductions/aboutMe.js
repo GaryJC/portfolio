@@ -13,7 +13,6 @@ function AboutMe() {
           autoplay
           loop
           src="https://lottie.host/de68c714-701e-451a-a928-62d0ff05f0d6/NSOaHmy5PD.json"
-          // style={{ height: "500px", width: "500px" }}
           id="portrait"
           className="animate__animated animate__zoomIn"
         />

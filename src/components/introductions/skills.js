@@ -138,8 +138,10 @@ function Skills({ isLoaded }) {
         autoplay
         loop
         src="https://assets4.lottiefiles.com/private_files/lf30_obidsi0t.json"
-        style={{ height: "auto", width: "500px" }}
-        className={isLoaded ? "animate__animated animate__zoomIn" : "unloaded"}
+        // style={{ height: "auto", width: "500px" }}
+        className={
+          isLoaded ? "skillImg animate__animated animate__zoomIn" : "unloaded"
+        }
       />
     </div>
   );

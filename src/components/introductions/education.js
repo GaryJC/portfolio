@@ -7,7 +7,6 @@ function Education({ isLoaded }) {
         // keepLastFrame
         loop
         src="https://assets2.lottiefiles.com/packages/lf20_DMgKk1.json"
-        style={{ height: "auto", width: "500px" }}
         id="eduImg"
         className={isLoaded ? "animate__animated animate__zoomIn" : "unloaded"}
       />

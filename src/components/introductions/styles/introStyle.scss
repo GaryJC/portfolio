@@ -19,7 +19,9 @@
   }
   overflow: hidden;
   #eduImg {
-    // padding-right: 2rem;
+    width: 500px;
+    max-width: 500px;
+    height: auto;
   }
 }
 
@@ -38,11 +40,8 @@
   flex-wrap: wrap;
   justify-content: center;
   #portrait {
-    // border-radius: 50%;
-    width: 600px;
+    // width: 600px;
     flex: 1;
-    // height: 20rem;
-    // margin-right: 5vw;
     max-width: 600px;
   }
   p {
@@ -57,6 +56,10 @@
   .contactImg {
     width: 3rem;
     margin: 0.5rem;
+    &:hover {
+      transform: scale(1.2);
+      transition: all 0.2s linear;
+    }
   }
 }
 
@@ -77,4 +80,88 @@
 
 .unloaded {
   visibility: hidden;
+}
+
+.skills {
+  img:hover {
+    transform: scale(1.2);
+    transition: all 0.2s linear;
+  }
+  .skillImg {
+    width: 500px;
+    max-width: 500px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  p {
+    font-size: 0.8rem;
+    width: 85vw;
+  }
+  h1 {
+    font-size: 1.4rem !important;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  .aboutMe {
+    margin-left: 0rem;
+
+    text-align: center;
+  }
+  .contact {
+    display: flex;
+    justify-content: center;
+    .contactImg {
+      width: 2rem;
+      margin-bottom: 10vh;
+    }
+  }
+  .section2 {
+    .skills {
+      img {
+        width: 2.5rem;
+        padding-right: 0.5rem;
+        padding-bottom: 0.5rem;
+      }
+      .skillImg {
+        width: 80vw;
+        max-width: 500px;
+        height: auto;
+      }
+      margin-bottom: 8rem;
+    }
+  }
+  .edu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    h2 {
+      font-weight: bold;
+    }
+    margin-left: 5vw;
+    img {
+      width: 30vw;
+      height: auto;
+      margin-right: 2vw;
+    }
+    .schoolInfo {
+      display: flex;
+      margin-bottom: 5vh;
+      div {
+        font-size: 1.2em;
+      }
+    }
+    overflow: hidden;
+    #eduImg {
+      width: 80vw;
+      max-width: 500px;
+      height: auto;
+    }
+    margin-bottom: 10vh;
+    div {
+      font-size: 0.5rem;
+    }
+  }
 }
