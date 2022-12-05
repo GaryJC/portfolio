@@ -11,10 +11,11 @@ function Navigation({ fullpageApi }) {
     //   {/* <span onClick={() => fullpageApi.moveTo("page6", 1)}>Contact Me</span> */}
     // </div>
     <ul id="nav">
-      <li onClick={() => fullpageApi.moveTo("page1", 1)}>About</li>
-      <li onClick={() => fullpageApi.moveTo("page1", 1)}>Portfolio</li>
-      <li onClick={() => fullpageApi.moveTo("page1", 1)}>Blog</li>
-      <li onClick={() => fullpageApi.moveTo("page1", 1)}>Contact</li>
+      <li onClick={() => fullpageApi.moveTo("page1", 1)}>About Me</li>
+      <li onClick={() => fullpageApi.moveTo("page2", 1)}>Skills</li>
+      <li onClick={() => fullpageApi.moveTo("page3", 1)}>Education</li>
+      <li onClick={() => fullpageApi.moveTo("page4", 1)}>Experiences</li>
+      <li onClick={() => fullpageApi.moveTo("page5", 1)}>Projects</li>
     </ul>
   );
 }
