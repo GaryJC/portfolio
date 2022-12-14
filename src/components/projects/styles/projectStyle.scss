@@ -39,6 +39,10 @@
   visibility: hidden;
 }
 
+.ant-card-actions {
+  border-radius: 0 0 20px 20px;
+}
+
 @media screen and (max-width: 600px) {
   .proCard {
     margin-bottom: 2rem;

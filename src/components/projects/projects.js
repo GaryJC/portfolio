@@ -30,6 +30,7 @@ function Projects() {
           <img
             src="https://img.icons8.com/color/48/000000/youtube-play.png"
             alt="youtube"
+            style={{ width: "2rem" }}
             onClick={() => {
               window.open("https://www.youtube.com/watch?v=eipqSPU8rV0&t=222s");
             }}
@@ -38,7 +39,7 @@ function Projects() {
       },
       {
         coverImg: "/images/Dashboard.png",
-        redirectLink: "https://github.com/COMP90082SM12022/GA-Redback",
+        redirectLink: "https://github.com/GaryJC/GarminWatchWebApp",
         cardTitle: "Garmin Watch Application",
         cardDescription: "I developed a web application for Garmin Watch",
         techIcon: (
@@ -175,7 +176,7 @@ function Projects() {
                 cardTitle={item.cardTitle}
                 cardDescription={item.cardDescription}
                 techIcon={item.techIcon}
-                // linkIcon={project.linkIcon}
+                linkIcon={item.linkIcon}
                 key={index}
               />
             ))}
