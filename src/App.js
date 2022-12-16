@@ -5,16 +5,12 @@ import Skills from "./components/introductions/skills";
 import Experiences from "./components/experiences/experiences";
 import Projects from "./components/projects/projects";
 import Navigation from "./components/navigation/navigation";
-import ReactGa from "react-ga";
+import ReactGA from "react-ga";
 import "./App.scss";
-import { useEffect } from "react";
+ReactGA.initialize("UA-000000-01");
+ReactGA.pageview(window.location.pathname + window.location.search);
 function App() {
   const sectionLoaded = [false, false, false, false, false];
-
-  useEffect(() => {
-    ReactGa.initialize("G-3MM6QB46LL");
-    ReactGa.pageview("/");
-  }, []);
 
   return (
     <ReactFullpage

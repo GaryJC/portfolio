@@ -9,7 +9,7 @@ function ProjectCard({
   techIcon,
   linkIcon,
 }) {
-  console.log(linkIcon);
+  // console.log(linkIcon);
   return (
     <div className="site-card-border-less-wrapper proCard">
       {linkIcon ? (
