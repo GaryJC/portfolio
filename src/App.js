@@ -5,13 +5,12 @@ import Skills from "./components/introductions/skills";
 import Experiences from "./components/experiences/experiences";
 import Projects from "./components/projects/projects";
 import Navigation from "./components/navigation/navigation";
-import ReactGA from "react-ga";
+import ReactGA from "react-ga4";
 import "./App.scss";
 ReactGA.initialize("G-3MM6QB46LL");
-ReactGA.pageview(window.location.pathname + window.location.search);
+ReactGA.send(window.location.pathname);
 function App() {
   const sectionLoaded = [false, false, false, false, false];
-
   return (
     <ReactFullpage
       //fullpage options
