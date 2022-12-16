@@ -7,7 +7,7 @@ import Projects from "./components/projects/projects";
 import Navigation from "./components/navigation/navigation";
 import ReactGA from "react-ga";
 import "./App.scss";
-ReactGA.initialize("UA-000000-01");
+ReactGA.initialize("G-3MM6QB46LL");
 ReactGA.pageview(window.location.pathname + window.location.search);
 function App() {
   const sectionLoaded = [false, false, false, false, false];
