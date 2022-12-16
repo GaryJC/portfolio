@@ -14,7 +14,7 @@ function App() {
   useEffect(() => {
     ReactGa.initialize("G-3MM6QB46LL");
     ReactGa.pageview("/");
-  });
+  }, []);
 
   return (
     <ReactFullpage
