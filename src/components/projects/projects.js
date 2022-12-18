@@ -39,7 +39,7 @@ function Projects() {
       },
       {
         coverImg: "/images/Dashboard.png",
-        redirectLink: "https://github.com/GaryJC/GarminWatchWebApp",
+        redirectLink: "https://github.com/GaryJC/GarminWatchApp",
         cardTitle: "Garmin Watch Application",
         cardDescription: "I developed a web application for Garmin Watch",
         techIcon: (
