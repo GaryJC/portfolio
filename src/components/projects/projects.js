@@ -6,7 +6,7 @@ function Projects() {
     [
       {
         coverImg: "/images/unityGame.JPG",
-        redirectLink: "https://garyjc.github.io/PersonalPortfolio/",
+        redirectLink: "https://garyjc.github.io/GameDevPortfolio/",
         cardTitle: "Unity Games",
         cardDescription: "I developed games using Unity3D, C# and Maya",
         techIcon: (
