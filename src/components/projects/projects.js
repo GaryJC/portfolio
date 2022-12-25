@@ -31,8 +31,9 @@ function Projects() {
             src="https://img.icons8.com/color/48/000000/youtube-play.png"
             alt="youtube"
             style={{ width: "2rem" }}
-            onClick={() => {
+            onClick={(e) => {
               window.open("https://www.youtube.com/watch?v=eipqSPU8rV0&t=222s");
+              e.stopPropagation();
             }}
           />
         ),
