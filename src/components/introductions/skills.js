@@ -105,13 +105,13 @@ function Skills({ isLoaded }) {
         >
           <h2>Tools and Libraries</h2>
           <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
-            alt="redux"
-          />{" "}
-          <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg"
             alt="unity"
           />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
+            alt="redux"
+          />{" "}
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
             alt="jest"
@@ -125,12 +125,21 @@ function Skills({ isLoaded }) {
             alt="ai"
           />
           <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aftereffects/aftereffects-original.svg"
+            alt="ae"
+          />
+          <img src="/portfolio/images/indesign.svg" alt="id" />
+          <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
             alt="figma"
           />
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg"
             alt="android studio"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+            alt="linux"
           />
         </div>
       </div>

@@ -160,6 +160,31 @@ function Projects() {
           </div>
         ),
       },
+      {
+        coverImg: "/images/AEAnimation.JPG",
+        redirectLink: "https://www.youtube.com/watch?v=p0t0dPgdimU",
+        cardTitle: "AE Animation",
+        cardDescription:
+          "I used Adobe Effect to create an animation for a speech",
+        techIcon: (
+          <div className="techIcon">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aftereffects/aftereffects-original.svg"
+              alt="ae"
+            />
+          </div>
+        ),
+        linkIcon: (
+          <img
+            src="https://img.icons8.com/color/48/000000/youtube-play.png"
+            alt="youtube"
+            style={{ width: "2rem" }}
+            onClick={() => {
+              window.open("https://www.youtube.com/watch?v=eipqSPU8rV0&t=222s");
+            }}
+          />
+        ),
+      },
     ],
   ];
 
