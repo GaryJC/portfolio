@@ -50,6 +50,7 @@ function ProjectCard({
               style={{ width: "20rem", borderRadius: "20px 20px 0 0" }}
             />
           }
+          onClick={() => window.open(redirectLink)}
         >
           {techIcon}
           <Meta
